@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2020",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "declarationMap": true,
+    "noImplicitAny": false,
+    "rootDirs": ["node/src", "./scripts", "./test"],
+    "types": ["node", "mocha"],
+    "experimentalDecorators": true,
+    "lib": ["ESNext"]
+  },
+  "exclude": ["dist", "node_modules"],
+  "include": ["./test", "node/src", "./scripts", "utils", "global.d.ts", "config", "node/22", "node/main.js"],
+  "files": ["./hardhat.config.ts"],
+  "typeRoots": [
+    "./node_modules/@types",
+    "./src/types",
+    "global.d.ts",
+    "./node_modules/@nomicfoundation/hardhat-ethers/types"
+  ]
+}

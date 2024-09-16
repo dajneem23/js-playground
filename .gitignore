@@ -1,0 +1,16 @@
+# env files
+.env
+.env.production
+.env.development
+.env.arb
+.env.zksync
+
+# Build folders
+dist
+
+# Logs
+logs
+redis-data
+
+# Node Modules
+node_modules
